@@ -1,0 +1,33 @@
+aside {
+    display: none;
+}
+
+main .avatar {
+    background-color: inherit;
+    margin-bottom: 20px;
+}
+
+main .container {
+    overflow: hidden;
+    width: 45%;
+    float: left;
+    margin: 20px
+}
+
+main .container b {
+    padding-left: 40px;
+}
+
+@media screen and (max-width: 992px){
+    main .container {
+        width: 45%;
+        margin: 3px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    main .container {
+        width: 100%;
+        margin: 3px;
+    }
+}

@@ -1,0 +1,99 @@
+.banner {
+    background: rgb(227,251,255);
+    background: linear-gradient(86deg, rgba(227,251,255,1) 0%, 
+    rgba(134,236,255,1) 13%, rgba(34,149,168,1) 33%, 
+    rgba(0,114,135,1) 50%, rgba(34,149,168,1) 67%, 
+    rgba(134,236,255,1) 87%, rgba(227,251,255,1) 100%);
+    padding: 10px 0 10px 0;
+}
+
+.banner h3 {
+    animation: move2 2s infinite normal;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.banner span {
+    font-size: 30px;
+}
+
+.banner span:first-of-type {
+    animation: move1 2s infinite normal;
+}
+
+.banner span:last-of-type {
+    animation: move1 2s infinite normal;
+}
+
+@keyframes move1 {
+    0% {
+        color: #5d80ff;
+    }
+    20% {
+        color: #436cff;
+    }
+    40% {
+        color: #2957ff;
+    }
+    50% {
+        color: #0037ff;
+    }
+    60% {
+        color: #2957ff;
+    }
+    80% {
+        color: #436cff;
+    }
+    100% {
+        color: #5d80ff;
+    }
+}
+
+@keyframes move2 {
+    0% {
+        color: #d6dfff;
+    }
+    50% {
+        color: #a2a5b1;
+    }
+    100% {
+        color: #d6dfff;
+    }
+}
+
+@media screen and (max-width:992px) {
+    
+    .banner h3 {
+        font-size: 26px;
+    }
+    
+    .banner span {
+        font-size: 20px; 
+    }
+}
+
+
+@media screen and (max-width: 769px) {    
+    .banner span {
+        margin: 10px;
+    }
+
+    .banner span:first-of-type{
+        padding-right: 8%;
+    }
+
+    .banner {
+        height: 72px;
+        margin-top: -10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .banner span {
+        margin: 10px;
+    }
+
+    .banner span:first-of-type{
+        padding-right: 10%;
+    }
+}

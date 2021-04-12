@@ -1,0 +1,121 @@
+header {
+    background-color: #e3fbff;
+    background-image: url('../img/Bg3.png');
+    background-position-x: -100px;
+    background-position-y: -200px; 
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    border-bottom: 1px solid black;
+}
+
+
+header .logo {
+    padding-top: 20px;
+    font-family: 'Dancing Script', cursive;
+    color: black;
+}
+
+header .logo:hover {
+    text-decoration: none;
+}
+
+
+header .logo img {
+    height: 50px;
+}
+
+header .logo p {
+    font-size: 18px;
+}
+
+header ul li {
+    cursor: pointer;
+    list-style-type: none;
+    list-style-position: inside;
+    text-transform: uppercase;
+    margin-top: 48px;
+    border-right: 1px solid black;
+    padding-right: 25px;
+}
+
+header ul li a {
+    color: black;
+}
+
+header ul li a:hover {
+    text-decoration: none;
+    color: #f50202;
+}
+
+header ul li:last-of-type {
+    border: none
+}
+
+header .bars {
+    font-size: 30px;
+}
+
+header .bars i {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+header .point::before {
+    content: '⮞';
+    color: #f50202;
+}
+
+header .point::after {
+    content: '⮜';
+    color: #f50202;
+}
+
+
+/* Media requests */
+
+@media screen and (max-width: 1200px) {
+
+    header ul li {
+        padding-right: 10px;
+    }
+
+}
+
+
+@media screen and (max-width:992px) {
+    
+}
+
+
+@media screen and (max-width: 769px) {
+
+    header .top-nav{
+        display: none; 
+    }
+
+    header .logo {
+        text-align: center;
+        height: 80px;
+    }
+
+    header .logo h2 {
+        font-size: 40px;
+    }
+
+    header .logo p {
+        font-size: 30px;
+    }
+
+    header ul {
+        margin-top: -25px;
+        margin-left: 20px;
+    }
+
+    header ul li {
+        margin-top: 10px;
+        font-size: 20px;
+        border: none;
+        color: #2b2b2b;
+    }
+}

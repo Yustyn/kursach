@@ -1,0 +1,83 @@
+footer {
+    background-color: #e3fbff;
+    background-image: url('../img/Bg3.png');
+    background-position-x: -100px;
+    background-position-y: -200px;
+
+}
+
+footer .logo {
+    padding-top: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+footer .logo h2 {
+    font-size: 20px;
+}
+
+footer .logo img {
+    height: 30px;
+}
+
+footer .logo p {
+    font-size: 11px;
+}
+
+footer .copyright {
+    margin-top: 20px;
+    text-align: end;
+
+}
+
+footer .copyright h6 {
+    font-size: 12px;
+}
+
+footer .copyright p {
+    font-size: 10px;
+}
+
+footer .links {
+    white-space: nowrap;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-top: 17px;
+}
+
+footer .links a {
+    color: black;
+    font-family: 'Acme', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 10px;
+} 
+
+footer .links a span {
+    font-size: 20px;
+    line-height: 10px;
+}
+
+footer .links a:hover {
+    text-decoration: none;
+    color: #8a0909;
+}
+
+@media screen and (max-width:992px) {
+    footer .links {
+        padding-left: 60px;
+    }
+}
+
+@media screen and (max-width:769px) {
+    footer .links {
+        padding-left: 20px;
+    }
+
+    footer .copyright, .links {
+        text-align: center;
+    }
+
+    footer .logo {
+        display: none;
+    }
+}

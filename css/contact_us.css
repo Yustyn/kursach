@@ -1,0 +1,50 @@
+header {
+    position: static;
+}
+
+main h3 {
+    margin-left: 10px;
+}
+
+main .container {
+    padding-top: 10px;
+}
+
+main .container p {
+    padding-bottom: 0px !important;
+}
+
+aside .container {
+    margin: 0 0 10px 0;
+}
+
+aside .container h3 {
+    padding: 0 13px;
+    margin: 0;
+}
+
+aside .container p {
+    padding: 0;
+    margin: 0;
+}
+
+aside a {
+    text-decoration: none;
+    color: black;
+}
+
+aside a:hover {
+    text-decoration: none;
+    color: #8a0909;
+}
+
+footer .links {
+    display: none !important;
+}
+
+
+@media screen and (max-width: 769px){
+    aside .container {
+        margin-top: 10px;
+        border: none !important;
+    }

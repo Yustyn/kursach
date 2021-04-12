@@ -1,0 +1,126 @@
+main {
+    border-left: 4px double black;
+    margin: 15px 0 15px;
+}
+
+main .container p {
+    text-align: justify;
+    text-indent: 15px;
+    white-space:  pre-line;
+}
+
+main .container p:last-of-type {
+    padding-bottom: 20px;
+}
+
+main .container {
+    background-color: #c5fff7b9;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+main .container:last-of-type {
+    border-bottom: none;
+}
+
+main h1 {
+    margin-left: 50px;
+}
+
+main h2 {
+    text-align: center;
+}
+
+main .post_time {
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-left: 40px;
+    padding-bottom: 5px;
+}
+
+main .avatar {
+    height: 100px;
+    width: 100px;
+    float: left;
+    background-color: blue;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+main .avatar img {
+    top: center;
+    position: relative;
+}
+
+main .avatar .avatar1 {
+    width: 120px;
+    top: 0px;
+    left: -10px;
+} 
+
+main .avatar .avatar2 {
+    width: 230px;
+}
+
+main .avatar .avatar3 {
+    width: 300px;
+    left: -60px;
+    top: -14px;
+}
+
+.bg_main {
+    background-image: url("../img/bg_right_2_1.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position-y: 120px;
+    background-attachment: fixed;
+    background-color: #cdfff841;
+}
+
+main li { 
+    list-style: none; 
+    position: relative;
+    padding: 6px 0 0 20px;
+    list-style-image: url('../img/listyle.png');
+    list-style-position: inside;
+}
+
+.up {
+	opacity: 0;
+    color: #014a5cff841;
+    background-color: #cdfff841;
+	height: 40px;
+    width: 40px;
+	border-radius: 20px;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+    cursor: pointer;
+	transition: all .3s ease-in-out;
+}
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    .bg_main {
+        background-position-y: 100px;
+    }
+}
+
+@media screen and (max-width: 769px) { 
+    .bg_main {
+        background-position-y: 140px;
+    }
+    main {
+        border: none
+    }
+}
+
+@media screen and (max-width: 504px) {
+    .bg_main {
+        background-position-y: 290px;
+    }
+}

@@ -1,0 +1,52 @@
+aside h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    display: inline-block;
+    padding: 0 10px 0;
+}
+
+aside .container:first-of-type {
+    border: none;
+}
+
+aside .container {
+    margin-bottom: 30px;
+    background-color: #dffffbb9;
+    white-space: pre-line;
+}
+
+aside h3 {
+    display: inline-block;
+    padding: 20px 10px 0;
+    font-size: 26px;
+}
+
+aside .container p {
+    text-align: justify;
+    text-indent: 15px;
+    padding-right: 10px;
+}
+
+aside {
+    z-index: 1;
+}
+
+@media screen and (max-width: 769px) {
+    aside .container:first-of-type {
+        border-top: 1px solid black;
+    }
+    
+}
+
+@media screen and (max-width: 769px){
+    aside .container {
+        margin-top: 10px;
+        /* border: none !important; */
+    }
+}
+@media screen and (min-width: 769px){
+
+aside .container {
+    margin-top: 35px;
+}
+}
