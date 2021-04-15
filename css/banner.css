@@ -72,7 +72,6 @@
     }
 }
 
-
 @media screen and (max-width: 769px) {    
     .banner span {
         margin: 10px;
@@ -95,5 +94,25 @@
 
     .banner span:first-of-type{
         padding-right: 10%;
+    }
+}
+
+@media screen and (max-width: 501px) {
+    .banner h3 {
+        font-size: 20px;
+        margin-top: 6px;
+    }
+    
+    .banner span {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .banner h3 {
+        font-size: 14px;
+    }
+    .banner span:first-of-type{
+        padding-right: 5%;
     }
 }
